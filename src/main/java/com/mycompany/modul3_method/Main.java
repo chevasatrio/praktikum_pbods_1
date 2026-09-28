@@ -1,4 +1,4 @@
-package modul3_method;
+package com.mycompany.modul3_method;
 
 public class Main {
     public static void main(String[] args) {
