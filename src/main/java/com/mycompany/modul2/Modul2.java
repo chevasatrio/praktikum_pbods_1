@@ -44,7 +44,7 @@ public class Modul2 {
 
         // Ini konstanta - variabel final yang TIDAK BISA diubah
         // setelah dideklarasi. Konvensi nama: HURUF_BESAR.
-        final double PHI = 3.14159;
+        final double PHI = 22/7;
 
         double jariJari = 7.0;
         double luasLingkaran = PHI * jariJari * jariJari;
@@ -81,7 +81,7 @@ public class Modul2 {
         System.out.println("=== 2.4.1 Operator ===");
         int a = 15;
         int b = 4;
-
+        
         // Operator aritmatika dasar.
         System.out.println("a + b = " + (a + b));   // penjumlahan
         System.out.println("a / b = " + (a / b));   // pembagian int/int hasilnya int (3, bukan 3.75)
@@ -156,7 +156,7 @@ public class Modul2 {
 
         // for: jumlah pengulangan sudah diketahui.
         System.out.print("For 1-5  : ");
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 0; i <= 5; i++) {
             System.out.print(i + " ");
         }
         System.out.println();
